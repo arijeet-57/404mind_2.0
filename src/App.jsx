@@ -3,6 +3,7 @@ import Layout from './Layout'
 import { WelcomePage } from './pages/Welcome'
 import AboutPage from './pages/About'
 import { BlogsPage } from './pages/Blogs'
+import { Blog1 } from './pages/Blog1'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
           <Route index element= {<WelcomePage/>} />
           <Route path='/about' element= {<AboutPage/>} />
           <Route path= '/blogs'  element={<BlogsPage/>} />
+          <Route path= '/SolaceOfNothingness' element={<Blog1/>} />
         </Route>
       </Routes>
   )
