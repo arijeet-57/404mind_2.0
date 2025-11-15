@@ -7,7 +7,7 @@ function Header() {
       justifyContent: "space-between",
       padding: "0.5rem 1rem"
     }}>
-        <div style={{fontWeight: "bold" ,fontSize: "1.5rem"}}><Link to="/">404minDS_</Link></div>
+        <div style={{fontWeight: "bold" ,fontSize: "1.5rem"}}><Link to="/" style={{textDecoration:"none", color:"black"}}>404minDS_</Link></div>
         <div style={{textAlign: "right" ,fontSize: "0.9rem"}}>
             <div>Created On: 13/11/25</div>
             <div>Maintained By: Arijeet Roy</div>
