@@ -8,7 +8,7 @@ function Navbar() {
         color: "white",
         display: "flex",
         padding: "5px 5px",
-        gap: "2rem",
+        gap: "2rem"
       }}
     >
       <NavLink
@@ -18,6 +18,7 @@ function Navbar() {
           color: isActive ? "yellow" : "white",
           textDecoration: isActive ? "underline" : "none",
           paddingBottom: "3px",
+          marginLeft: "12px"
         })}
       >
         Welcome

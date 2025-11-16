@@ -10,7 +10,7 @@ function Layout() {
       <main style={{
         background: "#999",
         margin: "2rem auto",
-        width: "80%",
+        width: "60%",
         padding: "1rem"
       }}>
         {/* this is the place where the pages will get reloaded */}
