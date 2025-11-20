@@ -45,6 +45,17 @@ function Navbar() {
       >
         Blogs
       </NavLink>
+
+      <NavLink
+        to="/projects"
+        style={({ isActive }) => ({
+          color: isActive ? "yellow" : "white",
+          textDecoration: isActive ? "underline" : "none",
+          paddingBottom: "3px",
+        })}
+      >
+        Projects
+      </NavLink>
     </nav>
   );
 }
